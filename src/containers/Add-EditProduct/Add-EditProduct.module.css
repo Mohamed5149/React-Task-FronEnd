@@ -1,0 +1,31 @@
+
+div{
+   
+    width: 70%;
+    margin: 2rem auto;
+    
+}
+div button{
+    margin-left: 13rem;
+    padding: 0.5rem;
+    padding-left: 1.7rem;
+    padding-right: 1.7rem;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background-color: #27AE60;
+    color: white;
+    margin-top: 1rem; 
+}
+.btnR{
+    margin-left: 2rem;
+    background-color: #ED5E68;
+}
+
+.disabled{
+    background-color: gray;
+}
+
+.error{
+    border: #ED5E68 2px solid;
+}
+
