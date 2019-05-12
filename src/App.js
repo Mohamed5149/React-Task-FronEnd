@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom';
 import './App.css';
-import Navbar from './Components/navbar/navbar';
 import ProductsList from '../src/containers/ProductsList/ProductsList';
 import ProductForm from './containers/Add-EditProduct/Add-EditProduct';
 
@@ -14,7 +13,6 @@ class App extends Component {
                     <Route path="/editproduct/:id" exact component={ProductForm}></Route>
                     <Redirect from="" to="/products"></Redirect>
                 </Switch>
-                <Navbar></Navbar>
             </BrowserRouter>
         )
     }

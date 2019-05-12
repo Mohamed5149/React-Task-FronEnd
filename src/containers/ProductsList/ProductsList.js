@@ -7,12 +7,9 @@ import ProductRow from '../../Components/ProductRow/ProductRow';
 class ProductsList extends Component {
     componentDidMount() {
         this.props.get();
-        console.log('renderd');
     }
 
     editProduct(proid){
-        console.log('fired');
-        // let id = parseInt(proid);
         this.props.history.push(`/editproduct/${proid}`);
     }
 

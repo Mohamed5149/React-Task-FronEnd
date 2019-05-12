@@ -1,1 +1,2 @@
 export const INITPRODUCTS = 'INITPRODUCTS';
+export const EDITPRODUCT = 'EDITPRODUCT';
